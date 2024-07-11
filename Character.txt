@@ -1,0 +1,23 @@
+public class Character
+{
+
+	public static void main(String args[])
+	{
+	
+	Scanner sc=new Scanner(System.in);
+	char i,j;
+	
+	char ch[]= {'$','@','t','h','@','T','e','c','h','2','7','Y','E','a','r','$','2','4','/','7'};
+
+			if(ch[1]>'a'&&ch[1]<='z')
+			{
+				System.out.println("it is alphabet"+ch[1]);
+			}
+			else
+			{
+				System.out.println("not a alphabet"+ch[1]);
+			}
+		}
+			
+	}
+
